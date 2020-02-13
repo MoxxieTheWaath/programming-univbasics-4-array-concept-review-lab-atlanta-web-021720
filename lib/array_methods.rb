@@ -6,11 +6,10 @@ def find_element_index(array, value_to_find)
     if array[counter] === value_to_find
       return counter
     else 
-      r = nil
+      return nil
     end
     counter = counter+1
   end
-  return r
 end
 #def find_max_value(array)
   # Add your solution here
