@@ -1,12 +1,12 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  r = 0
+  r = nil
   counter = 0
   while counter < array.length do
     if array[counter] == value_to_find
       r = counter
     else 
-      print "test"
+      r = nil
     end
     counter = counter+1
   end
