@@ -9,10 +9,11 @@ def find_element_index(array, value_to_find)
     counter = counter+1
   end
 end
-#def find_max_value(array)
+def find_max_value(array)
   # Add your solution here
-#end
+  
+end
 
-#def find_min_value(array)
+def find_min_value(array)
   # Add your solution here
-#end
+end
