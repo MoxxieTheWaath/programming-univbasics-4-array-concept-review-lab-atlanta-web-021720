@@ -16,8 +16,10 @@ def find_max_value(array)
   while counter < array.length do
     if max >= array[counter]
       return max
+      print "One"
     else
       max = array[counter]
+      print "Two"
     end
     counter = counter+1
   end
